@@ -384,7 +384,7 @@ $( window ).on( 'load', function(){
 		function googleMapsInit() {
 			var mapOptions = {
 				zoom: 11,
-				center: new google.maps.LatLng(40.6501038, -73.9495823),
+				center: new google.maps.LatLng(69.409995, 30.209942),
 				mapTypeControl: false,
 				fullscreenControl: false,
 				scalecontrol: false,
@@ -396,7 +396,7 @@ $( window ).on( 'load', function(){
 			mapElement = document.getElementById( 'map' ),
 			map = new google.maps.Map( mapElement, mapOptions ),
 			marker = new google.maps.Marker( {
-				position: new google.maps.LatLng( 40.6401038, -73.9495823 ),
+				position: new google.maps.LatLng( 69.409995, 30.209942 ),
 				map: map,
 				icon: 'img/icon-map.png'
 			});
