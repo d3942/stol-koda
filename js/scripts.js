@@ -396,7 +396,7 @@ $( window ).on( 'load', function(){
 			mapElement = document.getElementById( 'map' ),
 			map = new google.maps.Map( mapElement, mapOptions ),
 			marker = new google.maps.Marker( {
-				position: new google.maps.LatLng( 69.409995, 30.209942 ),
+				position: new google.maps.LatLng( 69.4019995, 30.209942 ),
 				map: map,
 				icon: 'img/icon-map.png'
 			});
